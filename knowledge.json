@@ -1,0 +1,1867 @@
+{
+ "especies": [
+  "Perro",
+  "Gato"
+ ],
+ "sintomas": [
+  {
+   "codigo": "vomitos",
+   "etiqueta": "Vómitos",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "diarrea",
+   "etiqueta": "Diarrea",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "consumo_alimento_inusual",
+   "etiqueta": "Consumo alimento inusual",
+   "tipo": "antecedente"
+  },
+  {
+   "codigo": "abdomen_hinchado",
+   "etiqueta": "Abdomen hinchado",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "arcadas_sin_vomitar",
+   "etiqueta": "Arcadas sin vomitar",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "dolor_abdominal",
+   "etiqueta": "Dolor abdominal",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "exposicion_alimento_contaminado",
+   "etiqueta": "Exposición alimento contaminado",
+   "tipo": "antecedente"
+  },
+  {
+   "codigo": "diarrea_con_sangre",
+   "etiqueta": "Diarrea con sangre",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "vacunado_parvovirus",
+   "etiqueta": "Vacunado contra parvovirus",
+   "tipo": "antecedente"
+  },
+  {
+   "codigo": "perdida_peso",
+   "etiqueta": "Pérdida peso",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "parasitos_visibles_heces",
+   "etiqueta": "Parásitos visibles heces",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "moco_en_heces",
+   "etiqueta": "Moco en heces",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "esfuerzo_defecar",
+   "etiqueta": "Esfuerzo defecar",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "inapetencia",
+   "etiqueta": "Pérdida de apetito",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "vomitos_repetidos",
+   "etiqueta": "Vómitos repetidos",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "ingestion_objeto",
+   "etiqueta": "Ingestión objeto",
+   "tipo": "antecedente"
+  },
+  {
+   "codigo": "regurgitacion_alimento_sin_digerir",
+   "etiqueta": "Regurgitación alimento sin digerir",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "heces_voluminosas",
+   "etiqueta": "Heces voluminosas",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "apetito_aumentado",
+   "etiqueta": "Apetito aumentado",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "diarrea_recurrente",
+   "etiqueta": "Diarrea recurrente",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "sintomas_asociados_alimento",
+   "etiqueta": "Síntomas asociados alimento",
+   "tipo": "antecedente"
+  },
+  {
+   "codigo": "desparasitado_recientemente",
+   "etiqueta": "Fue desparasitado recientemente",
+   "tipo": "antecedente"
+  },
+  {
+   "codigo": "ictericia",
+   "etiqueta": "Ictericia",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "heces_duras",
+   "etiqueta": "Heces duras",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "frecuencia_defecacion_disminuida",
+   "etiqueta": "Frecuencia defecación disminuida",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "mal_aliento",
+   "etiqueta": "Mal aliento",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "sarro_visible",
+   "etiqueta": "Sarro visible",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "encias_inflamadas",
+   "etiqueta": "Encías inflamadas",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "tos_persistente",
+   "etiqueta": "Tos persistente",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "contacto_con_perros",
+   "etiqueta": "Ha tenido contacto con otros perros",
+   "tipo": "antecedente"
+  },
+  {
+   "codigo": "tos",
+   "etiqueta": "Tos",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "fiebre",
+   "etiqueta": "Fiebre",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "dificultad_respiratoria",
+   "etiqueta": "Dificultad respiratoria",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "picazon_intensa",
+   "etiqueta": "Picazón intensa",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "costras_orejas",
+   "etiqueta": "Costras orejas",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "lesiones_codos",
+   "etiqueta": "Lesiones codos",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "picazon",
+   "etiqueta": "Picazón",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "pulgas_visibles",
+   "etiqueta": "Pulgas visibles",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "picazon_recurrente",
+   "etiqueta": "Picazón recurrente",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "afectacion_patas",
+   "etiqueta": "Afectación patas",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "sintomas_estacionales",
+   "etiqueta": "Síntomas estacionales",
+   "tipo": "antecedente"
+  },
+  {
+   "codigo": "piel_enrojecida",
+   "etiqueta": "Piel enrojecida",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "irritacion_recurrente",
+   "etiqueta": "Irritación recurrente",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "sed_aumentada",
+   "etiqueta": "Sed aumentada",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "miccion_aumentada",
+   "etiqueta": "Micción aumentada",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "sacude_cabeza",
+   "etiqueta": "Sacude cabeza",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "rascado_orejas",
+   "etiqueta": "Rascado orejas",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "secrecion_oido",
+   "etiqueta": "Secreción oído",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "exposicion_agua_contaminada_o_roedores",
+   "etiqueta": "Exposición agua contaminada o roedores",
+   "tipo": "antecedente"
+  },
+  {
+   "codigo": "secrecion_ocular",
+   "etiqueta": "Secreción ocular",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "secrecion_nasal",
+   "etiqueta": "Secreción nasal",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "signos_neurologicos",
+   "etiqueta": "Signos neurológicos",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "colapso",
+   "etiqueta": "Colapso",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "convulsiones",
+   "etiqueta": "Convulsiones",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "decaimiento",
+   "etiqueta": "Decaimiento",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "vacunado_panleucopenia",
+   "etiqueta": "Vacunado contra panleucopenia",
+   "tipo": "antecedente"
+  },
+  {
+   "codigo": "cambio_alimento_o_ingesta_inusual",
+   "etiqueta": "Cambio alimento o ingesta inusual",
+   "tipo": "antecedente"
+  },
+  {
+   "codigo": "ulceras_orales",
+   "etiqueta": "Úlceras orales",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "estornudos",
+   "etiqueta": "Estornudos",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "tos_recurrente",
+   "etiqueta": "Tos recurrente",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "silbidos_respiratorios",
+   "etiqueta": "Silbidos respiratorios",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "costras_cuello_o_base_cola",
+   "etiqueta": "Costras cuello o base cola",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "perdida_pelo",
+   "etiqueta": "Pérdida pelo",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "lesiones_recurrentes",
+   "etiqueta": "Lesiones recurrentes",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "lesiones_cara",
+   "etiqueta": "Lesiones cara",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "inquietud",
+   "etiqueta": "Inquietud",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "edad_adulta_o_avanzada",
+   "etiqueta": "Es un animal adulto o de edad avanzada",
+   "tipo": "antecedente"
+  },
+  {
+   "codigo": "babeo",
+   "etiqueta": "Babeo",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "dolor_al_comer",
+   "etiqueta": "Dolor al comer",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "encias_muy_inflamadas",
+   "etiqueta": "Encías muy inflamadas",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "esfuerzo_orinar",
+   "etiqueta": "Esfuerzo orinar",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "orina_nula_o_gotas",
+   "etiqueta": "Orina nada o solo gotas",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "miccion_frecuente",
+   "etiqueta": "Micción frecuente",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "dolor_al_orinar",
+   "etiqueta": "Dolor al orinar",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "todavia_expulsa_orina",
+   "etiqueta": "Todavía expulsa orina",
+   "tipo": "sintoma"
+  },
+  {
+   "codigo": "orina_fuera_arenero",
+   "etiqueta": "Orina fuera arenero",
+   "tipo": "sintoma"
+  }
+ ],
+ "enfermedades": [
+  {
+   "id": 1,
+   "especie": "Perro",
+   "categoria": "Digestivo",
+   "nombre": "Gastroenteritis alimentaria",
+   "nivel": "informativo",
+   "descripcion": "Gastroenteritis alimentaria"
+  },
+  {
+   "id": 2,
+   "especie": "Perro",
+   "categoria": "Digestivo",
+   "nombre": "Torsión gástrica",
+   "nivel": "urgencia",
+   "descripcion": "dilatación-vólvulo gástrico"
+  },
+  {
+   "id": 3,
+   "especie": "Perro",
+   "categoria": "Digestivo",
+   "nombre": "Gastritis",
+   "nivel": "consulta",
+   "descripcion": "gastritis"
+  },
+  {
+   "id": 4,
+   "especie": "Perro",
+   "categoria": "Digestivo",
+   "nombre": "Enteritis",
+   "nivel": "consulta",
+   "descripcion": "enteritis"
+  },
+  {
+   "id": 5,
+   "especie": "Perro",
+   "categoria": "Digestivo",
+   "nombre": "Parvovirosis canina",
+   "nivel": "urgencia",
+   "descripcion": "parvovirosis canina"
+  },
+  {
+   "id": 6,
+   "especie": "Perro",
+   "categoria": "Digestivo",
+   "nombre": "Parasitosis intestinal",
+   "nivel": "consulta",
+   "descripcion": "parasitosis intestinal"
+  },
+  {
+   "id": 7,
+   "especie": "Perro",
+   "categoria": "Digestivo",
+   "nombre": "Colitis",
+   "nivel": "consulta",
+   "descripcion": "colitis"
+  },
+  {
+   "id": 8,
+   "especie": "Perro",
+   "categoria": "Digestivo",
+   "nombre": "Pancreatitis",
+   "nivel": "consulta",
+   "descripcion": "pancreatitis"
+  },
+  {
+   "id": 9,
+   "especie": "Perro",
+   "categoria": "Digestivo",
+   "nombre": "Obstrucción intestinal",
+   "nivel": "urgencia",
+   "descripcion": "obstrucción intestinal"
+  },
+  {
+   "id": 10,
+   "especie": "Perro",
+   "categoria": "Digestivo",
+   "nombre": "Megaesófago",
+   "nivel": "consulta",
+   "descripcion": "megaesófago"
+  },
+  {
+   "id": 11,
+   "especie": "Perro",
+   "categoria": "Digestivo",
+   "nombre": "Insuficiencia pancreática exocrina",
+   "nivel": "consulta",
+   "descripcion": "insuficiencia pancreática exocrina"
+  },
+  {
+   "id": 12,
+   "especie": "Perro",
+   "categoria": "Digestivo",
+   "nombre": "Reacción adversa alimentaria",
+   "nivel": "consulta",
+   "descripcion": "reacción adversa alimentaria"
+  },
+  {
+   "id": 13,
+   "especie": "Perro",
+   "categoria": "Digestivo",
+   "nombre": "Enfermedad hepática",
+   "nivel": "consulta",
+   "descripcion": "enfermedad hepática"
+  },
+  {
+   "id": 14,
+   "especie": "Perro",
+   "categoria": "Digestivo",
+   "nombre": "Estreñimiento",
+   "nivel": "informativo",
+   "descripcion": "estreñimiento"
+  },
+  {
+   "id": 15,
+   "especie": "Perro",
+   "categoria": "Bucodental",
+   "nombre": "Enfermedad periodontal",
+   "nivel": "consulta",
+   "descripcion": "enfermedad periodontal"
+  },
+  {
+   "id": 16,
+   "especie": "Perro",
+   "categoria": "Respiratorio",
+   "nombre": "Tos de las perreras",
+   "nivel": "consulta",
+   "descripcion": "tos de las perreras"
+  },
+  {
+   "id": 17,
+   "especie": "Perro",
+   "categoria": "Respiratorio",
+   "nombre": "Neumonía canina",
+   "nivel": "urgencia",
+   "descripcion": "neumonía canina"
+  },
+  {
+   "id": 18,
+   "especie": "Perro",
+   "categoria": "Dermatológico",
+   "nombre": "Sarna sarcóptica",
+   "nivel": "consulta",
+   "descripcion": "sarna sarcóptica"
+  },
+  {
+   "id": 19,
+   "especie": "Perro",
+   "categoria": "Dermatológico",
+   "nombre": "Dermatitis por pulgas",
+   "nivel": "informativo",
+   "descripcion": "dermatitis por pulgas"
+  },
+  {
+   "id": 20,
+   "especie": "Perro",
+   "categoria": "Dermatológico",
+   "nombre": "Dermatitis atópica",
+   "nivel": "consulta",
+   "descripcion": "dermatitis atópica"
+  },
+  {
+   "id": 21,
+   "especie": "Perro",
+   "categoria": "Dermatológico",
+   "nombre": "Dermatitis alérgica",
+   "nivel": "consulta",
+   "descripcion": "dermatitis alérgica"
+  },
+  {
+   "id": 22,
+   "especie": "Perro",
+   "categoria": "Metabólico y renal",
+   "nombre": "Diabetes mellitus canina",
+   "nivel": "consulta",
+   "descripcion": "diabetes mellitus canina"
+  },
+  {
+   "id": 23,
+   "especie": "Perro",
+   "categoria": "Metabólico y renal",
+   "nombre": "Insuficiencia renal crónica",
+   "nivel": "consulta",
+   "descripcion": "enfermedad renal crónica"
+  },
+  {
+   "id": 24,
+   "especie": "Perro",
+   "categoria": "Otológico",
+   "nombre": "Otitis externa",
+   "nivel": "consulta",
+   "descripcion": "otitis externa"
+  },
+  {
+   "id": 25,
+   "especie": "Perro",
+   "categoria": "Infeccioso sistémico",
+   "nombre": "Leptospirosis",
+   "nivel": "consulta",
+   "descripcion": "leptospirosis"
+  },
+  {
+   "id": 26,
+   "especie": "Perro",
+   "categoria": "Infeccioso sistémico",
+   "nombre": "Moquillo canino",
+   "nivel": "urgencia",
+   "descripcion": "moquillo canino"
+  },
+  {
+   "id": 27,
+   "especie": "Perro",
+   "categoria": "Emergencia",
+   "nombre": "Emergencia respiratoria o neurológica",
+   "nivel": "urgencia",
+   "descripcion": "Emergencia veterinaria"
+  },
+  {
+   "id": 28,
+   "especie": "Gato",
+   "categoria": "Digestivo",
+   "nombre": "Panleucopenia felina",
+   "nivel": "urgencia",
+   "descripcion": "panleucopenia felina"
+  },
+  {
+   "id": 29,
+   "especie": "Gato",
+   "categoria": "Digestivo",
+   "nombre": "Gastroenteritis alimentaria felina",
+   "nivel": "informativo",
+   "descripcion": "gastroenteritis alimentaria felina"
+  },
+  {
+   "id": 30,
+   "especie": "Gato",
+   "categoria": "Respiratorio",
+   "nombre": "Calicivirus felino",
+   "nivel": "consulta",
+   "descripcion": "calicivirus felino"
+  },
+  {
+   "id": 31,
+   "especie": "Gato",
+   "categoria": "Respiratorio",
+   "nombre": "Rinotraqueítis viral felina (herpesvirus felino)",
+   "nivel": "consulta",
+   "descripcion": "rinotraqueítis viral felina"
+  },
+  {
+   "id": 32,
+   "especie": "Gato",
+   "categoria": "Respiratorio",
+   "nombre": "Asma felina",
+   "nivel": "consulta",
+   "descripcion": "asma felina"
+  },
+  {
+   "id": 33,
+   "especie": "Gato",
+   "categoria": "Dermatológico",
+   "nombre": "Dermatitis por pulgas felina",
+   "nivel": "informativo",
+   "descripcion": "dermatitis por pulgas"
+  },
+  {
+   "id": 34,
+   "especie": "Gato",
+   "categoria": "Dermatológico",
+   "nombre": "Dermatitis alérgica felina",
+   "nivel": "consulta",
+   "descripcion": "dermatitis alérgica felina"
+  },
+  {
+   "id": 35,
+   "especie": "Gato",
+   "categoria": "Dermatológico",
+   "nombre": "Sarna notoédrica",
+   "nivel": "consulta",
+   "descripcion": "sarna notoédrica"
+  },
+  {
+   "id": 36,
+   "especie": "Gato",
+   "categoria": "Digestivo",
+   "nombre": "Parasitosis intestinal felina",
+   "nivel": "consulta",
+   "descripcion": "parasitosis intestinal felina"
+  },
+  {
+   "id": 37,
+   "especie": "Gato",
+   "categoria": "Metabólico y renal",
+   "nombre": "Diabetes mellitus felina",
+   "nivel": "consulta",
+   "descripcion": "diabetes mellitus felina"
+  },
+  {
+   "id": 38,
+   "especie": "Gato",
+   "categoria": "Metabólico y renal",
+   "nombre": "Insuficiencia renal crónica felina",
+   "nivel": "consulta",
+   "descripcion": "enfermedad renal crónica felina"
+  },
+  {
+   "id": 39,
+   "especie": "Gato",
+   "categoria": "Metabólico y renal",
+   "nombre": "Hipertiroidismo felino",
+   "nivel": "consulta",
+   "descripcion": "hipertiroidismo felino"
+  },
+  {
+   "id": 40,
+   "especie": "Gato",
+   "categoria": "Otológico",
+   "nombre": "Otitis externa felina",
+   "nivel": "consulta",
+   "descripcion": "otitis externa felina"
+  },
+  {
+   "id": 41,
+   "especie": "Gato",
+   "categoria": "Bucodental",
+   "nombre": "Estomatitis felina",
+   "nivel": "consulta",
+   "descripcion": "estomatitis felina"
+  },
+  {
+   "id": 42,
+   "especie": "Gato",
+   "categoria": "Urinario",
+   "nombre": "Obstrucción urinaria felina",
+   "nivel": "urgencia",
+   "descripcion": "obstrucción urinaria"
+  },
+  {
+   "id": 43,
+   "especie": "Gato",
+   "categoria": "Urinario",
+   "nombre": "Enfermedad del tracto urinario inferior felino (FLUTD)",
+   "nivel": "consulta",
+   "descripcion": "FLUTD"
+  },
+  {
+   "id": 44,
+   "especie": "Gato",
+   "categoria": "Urinario",
+   "nombre": "Cistitis felina",
+   "nivel": "consulta",
+   "descripcion": "cistitis felina"
+  },
+  {
+   "id": 45,
+   "especie": "Gato",
+   "categoria": "Emergencia",
+   "nombre": "Emergencia felina",
+   "nivel": "urgencia",
+   "descripcion": "Emergencia veterinaria"
+  }
+ ],
+ "reglas": [
+  {
+   "id": 1,
+   "enfermedad": 1,
+   "old": 1,
+   "cf": 0.75,
+   "diagnostico": "Gastroenteritis alimentaria",
+   "recomendacion": "Suspender el acceso al alimento sospechoso, mantener agua disponible si puede beber sin vomitar y consultar al veterinario si los síntomas persisten o empeoran.",
+   "condiciones": [
+    {
+     "sintoma": "vomitos",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "diarrea",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "consumo_alimento_inusual",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "enfermedad": 2,
+   "old": 2,
+   "cf": 0.95,
+   "diagnostico": "Sospecha de dilatación-vólvulo gástrico",
+   "recomendacion": "Atención veterinaria de emergencia inmediata. No administrar alimentos, agua ni medicamentos por la fuerza.",
+   "condiciones": [
+    {
+     "sintoma": "abdomen_hinchado",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "arcadas_sin_vomitar",
+     "valor": "si",
+     "grupo": 3
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "enfermedad": 3,
+   "old": 3,
+   "cf": 0.7,
+   "diagnostico": "Posible gastritis",
+   "recomendacion": "Solicitar evaluación veterinaria para determinar la causa del vómito y evitar medicamentos sin prescripción.",
+   "condiciones": [
+    {
+     "sintoma": "vomitos",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "dolor_abdominal",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "diarrea",
+     "valor": "no",
+     "grupo": 4
+    },
+    {
+     "sintoma": "consumo_alimento_inusual",
+     "valor": "si",
+     "grupo": 5
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "enfermedad": 4,
+   "old": 4,
+   "cf": 0.7,
+   "diagnostico": "Posible enteritis",
+   "recomendacion": "Evaluación veterinaria, vigilancia de la hidratación y análisis de heces cuando esté indicado.",
+   "condiciones": [
+    {
+     "sintoma": "diarrea",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "dolor_abdominal",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "exposicion_alimento_contaminado",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "enfermedad": 5,
+   "old": 5,
+   "cf": 0.9,
+   "diagnostico": "Sospecha de parvovirosis canina",
+   "recomendacion": "Atención veterinaria urgente, aislamiento de otros perros y tratamiento de soporte bajo supervisión veterinaria, que puede incluir fluidoterapia intravenosa.",
+   "condiciones": [
+    {
+     "sintoma": "vomitos",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "diarrea_con_sangre",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "vacunado_parvovirus",
+     "valor": "no",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "enfermedad": 6,
+   "old": 6,
+   "cf": 0.85,
+   "diagnostico": "Posible parasitosis intestinal",
+   "recomendacion": "Realizar examen de heces y administrar el antiparasitario apropiado según indicación veterinaria.",
+   "condiciones": [
+    {
+     "sintoma": "diarrea",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "perdida_peso",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "parasitos_visibles_heces",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "enfermedad": 7,
+   "old": 7,
+   "cf": 0.8,
+   "diagnostico": "Posible colitis",
+   "recomendacion": "Evaluación veterinaria para investigar causas inflamatorias, parasitarias o alimentarias.",
+   "condiciones": [
+    {
+     "sintoma": "diarrea",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "moco_en_heces",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "esfuerzo_defecar",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "enfermedad": 8,
+   "old": 8,
+   "cf": 0.7,
+   "diagnostico": "Posible pancreatitis",
+   "recomendacion": "Valoración veterinaria pronta; confirmar mediante exploración y pruebas diagnósticas apropiadas.",
+   "condiciones": [
+    {
+     "sintoma": "vomitos",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "dolor_abdominal",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "inapetencia",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "enfermedad": 9,
+   "old": 9,
+   "cf": 0.9,
+   "diagnostico": "Sospecha de obstrucción intestinal",
+   "recomendacion": "Atención veterinaria urgente. No inducir el vómito ni administrar remedios caseros.",
+   "condiciones": [
+    {
+     "sintoma": "vomitos_repetidos",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "ingestion_objeto",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "dolor_abdominal",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "enfermedad": 10,
+   "old": 10,
+   "cf": 0.75,
+   "diagnostico": "Posible megaesófago",
+   "recomendacion": "Evaluación veterinaria e investigación de alteraciones del esófago; vigilar signos respiratorios por posible aspiración.",
+   "condiciones": [
+    {
+     "sintoma": "regurgitacion_alimento_sin_digerir",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "perdida_peso",
+     "valor": "si",
+     "grupo": 3
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "enfermedad": 11,
+   "old": 11,
+   "cf": 0.8,
+   "diagnostico": "Posible insuficiencia pancreática exocrina",
+   "recomendacion": "Consultar al veterinario para realizar pruebas de función pancreática y valorar tratamiento nutricional y enzimático.",
+   "condiciones": [
+    {
+     "sintoma": "heces_voluminosas",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "perdida_peso",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "apetito_aumentado",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "enfermedad": 12,
+   "old": 12,
+   "cf": 0.7,
+   "diagnostico": "Posible reacción adversa alimentaria",
+   "recomendacion": "Evaluación veterinaria y posible dieta de eliminación supervisada.",
+   "condiciones": [
+    {
+     "sintoma": "diarrea_recurrente",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "sintomas_asociados_alimento",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "desparasitado_recientemente",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "enfermedad": 13,
+   "old": 13,
+   "cf": 0.8,
+   "diagnostico": "Posible enfermedad hepática",
+   "recomendacion": "Atención veterinaria pronta para realizar pruebas hepáticas y determinar la causa.",
+   "condiciones": [
+    {
+     "sintoma": "ictericia",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "inapetencia",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "vomitos",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "enfermedad": 14,
+   "old": 14,
+   "cf": 0.8,
+   "diagnostico": "Posible estreñimiento",
+   "recomendacion": "Evaluación veterinaria si persiste, existe dolor o hay vómitos; evitar laxantes sin indicación profesional.",
+   "condiciones": [
+    {
+     "sintoma": "esfuerzo_defecar",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "heces_duras",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "frecuencia_defecacion_disminuida",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "enfermedad": 15,
+   "old": 15,
+   "cf": 0.85,
+   "diagnostico": "Posible enfermedad periodontal",
+   "recomendacion": "Revisión odontológica veterinaria y limpieza profesional cuando esté indicada.",
+   "condiciones": [
+    {
+     "sintoma": "mal_aliento",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "sarro_visible",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "encias_inflamadas",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "enfermedad": 16,
+   "old": 16,
+   "cf": 0.8,
+   "diagnostico": "Posible tos de las perreras",
+   "recomendacion": "Consulta veterinaria y evitar el contacto con otros perros hasta determinar la causa.",
+   "condiciones": [
+    {
+     "sintoma": "tos_persistente",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "contacto_con_perros",
+     "valor": "si",
+     "grupo": 3
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "enfermedad": 17,
+   "old": 17,
+   "cf": 0.85,
+   "diagnostico": "Sospecha de neumonía canina",
+   "recomendacion": "Atención veterinaria urgente, especialmente si existe dificultad respiratoria.",
+   "condiciones": [
+    {
+     "sintoma": "tos",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "fiebre",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "dificultad_respiratoria",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "enfermedad": 18,
+   "old": 18,
+   "cf": 0.8,
+   "diagnostico": "Posible sarna sarcóptica",
+   "recomendacion": "Evaluación dermatológica veterinaria y tratamiento antiparasitario indicado.",
+   "condiciones": [
+    {
+     "sintoma": "picazon_intensa",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "costras_orejas",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "lesiones_codos",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "enfermedad": 19,
+   "old": 19,
+   "cf": 0.85,
+   "diagnostico": "Posible dermatitis por pulgas",
+   "recomendacion": "Control antiparasitario adecuado para el perro y su entorno, siguiendo indicación veterinaria.",
+   "condiciones": [
+    {
+     "sintoma": "picazon",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "pulgas_visibles",
+     "valor": "si",
+     "grupo": 3
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "enfermedad": 20,
+   "old": 20,
+   "cf": 0.75,
+   "diagnostico": "Posible dermatitis atópica",
+   "recomendacion": "Consulta veterinaria para investigar alergias y descartar parásitos e infecciones cutáneas.",
+   "condiciones": [
+    {
+     "sintoma": "picazon_recurrente",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "afectacion_patas",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "sintomas_estacionales",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "enfermedad": 21,
+   "old": 21,
+   "cf": 0.7,
+   "diagnostico": "Posible dermatitis alérgica",
+   "recomendacion": "Identificar posibles desencadenantes con apoyo veterinario y evitar tratamientos tópicos no prescritos.",
+   "condiciones": [
+    {
+     "sintoma": "piel_enrojecida",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "picazon",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "irritacion_recurrente",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "enfermedad": 22,
+   "old": 22,
+   "cf": 0.8,
+   "diagnostico": "Posible diabetes mellitus canina",
+   "recomendacion": "Realizar evaluación veterinaria, glucemia y análisis de orina.",
+   "condiciones": [
+    {
+     "sintoma": "sed_aumentada",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "miccion_aumentada",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "perdida_peso",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "enfermedad": 23,
+   "old": 23,
+   "cf": 0.75,
+   "diagnostico": "Posible enfermedad renal crónica",
+   "recomendacion": "Evaluación veterinaria con análisis de sangre y orina; el diagnóstico requiere pruebas específicas.",
+   "condiciones": [
+    {
+     "sintoma": "sed_aumentada",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "perdida_peso",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "vomitos",
+     "valor": "si",
+     "grupo": 4
+    },
+    {
+     "sintoma": "inapetencia",
+     "valor": "si",
+     "grupo": 5
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "enfermedad": 24,
+   "old": 24,
+   "cf": 0.85,
+   "diagnostico": "Posible otitis externa",
+   "recomendacion": "Examen del oído y tratamiento veterinario según la causa.",
+   "condiciones": [
+    {
+     "sintoma": "sacude_cabeza",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "rascado_orejas",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "secrecion_oido",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "enfermedad": 25,
+   "old": 25,
+   "cf": 0.8,
+   "diagnostico": "Sospecha de leptospirosis",
+   "recomendacion": "Atención veterinaria pronta y medidas de higiene para reducir la exposición a la orina del animal, ya que puede existir riesgo zoonótico.",
+   "condiciones": [
+    {
+     "sintoma": "fiebre",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "vomitos",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "exposicion_agua_contaminada_o_roedores",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "enfermedad": 26,
+   "old": 26,
+   "cf": 0.85,
+   "diagnostico": "Sospecha de moquillo canino",
+   "recomendacion": "Atención veterinaria urgente, aislamiento y pruebas diagnósticas.",
+   "condiciones": [
+    {
+     "sintoma": "secrecion_ocular",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "secrecion_nasal",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "signos_neurologicos",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "enfermedad": 27,
+   "old": 27,
+   "cf": 0.99,
+   "diagnostico": "Emergencia veterinaria",
+   "recomendacion": "Traslado inmediato a un servicio veterinario de urgencias.",
+   "condiciones": [
+    {
+     "sintoma": "dificultad_respiratoria",
+     "valor": "si",
+     "grupo": 1
+    },
+    {
+     "sintoma": "colapso",
+     "valor": "si",
+     "grupo": 1
+    },
+    {
+     "sintoma": "convulsiones",
+     "valor": "si",
+     "grupo": 1
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "enfermedad": 28,
+   "old": 28,
+   "cf": 0.9,
+   "diagnostico": "Sospecha de panleucopenia felina",
+   "recomendacion": "Atención veterinaria urgente, aislamiento y tratamiento de soporte bajo supervisión profesional.",
+   "condiciones": [
+    {
+     "sintoma": "vomitos",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "diarrea",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "decaimiento",
+     "valor": "si",
+     "grupo": 4
+    },
+    {
+     "sintoma": "vacunado_panleucopenia",
+     "valor": "no",
+     "grupo": 5
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "enfermedad": 29,
+   "old": 29,
+   "cf": 0.75,
+   "diagnostico": "Posible gastroenteritis alimentaria felina",
+   "recomendacion": "Consulta veterinaria si los síntomas persisten, son intensos o afectan la hidratación.",
+   "condiciones": [
+    {
+     "sintoma": "vomitos",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "diarrea",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "cambio_alimento_o_ingesta_inusual",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "enfermedad": 30,
+   "old": 30,
+   "cf": 0.8,
+   "diagnostico": "Posible calicivirus felino",
+   "recomendacion": "Evaluación veterinaria, aislamiento preventivo y cuidados de soporte según indicación.",
+   "condiciones": [
+    {
+     "sintoma": "ulceras_orales",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "estornudos",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "secrecion_nasal",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "enfermedad": 31,
+   "old": 31,
+   "cf": 0.8,
+   "diagnostico": "Posible rinotraqueítis viral felina",
+   "recomendacion": "Evaluación veterinaria, higiene ocular según indicación y reducción del contacto con otros gatos.",
+   "condiciones": [
+    {
+     "sintoma": "estornudos",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "secrecion_ocular",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "secrecion_nasal",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "enfermedad": 32,
+   "old": 33,
+   "cf": 0.8,
+   "diagnostico": "Posible asma felina",
+   "recomendacion": "Evaluación veterinaria; si tiene dificultad respiratoria, acudir a urgencias inmediatamente.",
+   "condiciones": [
+    {
+     "sintoma": "tos_recurrente",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "silbidos_respiratorios",
+     "valor": "si",
+     "grupo": 3
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "enfermedad": 33,
+   "old": 34,
+   "cf": 0.8,
+   "diagnostico": "Posible dermatitis por pulgas",
+   "recomendacion": "Evaluación dermatológica y control antiparasitario seguro para gatos.",
+   "condiciones": [
+    {
+     "sintoma": "picazon",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "costras_cuello_o_base_cola",
+     "valor": "si",
+     "grupo": 3
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "enfermedad": 34,
+   "old": 35,
+   "cf": 0.75,
+   "diagnostico": "Posible dermatitis alérgica felina",
+   "recomendacion": "Evaluación veterinaria para descartar pulgas, ácaros, infecciones y otras alergias.",
+   "condiciones": [
+    {
+     "sintoma": "picazon",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "perdida_pelo",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "lesiones_recurrentes",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "enfermedad": 35,
+   "old": 36,
+   "cf": 0.8,
+   "diagnostico": "Posible sarna notoédrica",
+   "recomendacion": "Atención veterinaria y tratamiento antiparasitario específico para gatos.",
+   "condiciones": [
+    {
+     "sintoma": "picazon_intensa",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "costras_orejas",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "lesiones_cara",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "enfermedad": 36,
+   "old": 37,
+   "cf": 0.85,
+   "diagnostico": "Posible parasitosis intestinal felina",
+   "recomendacion": "Análisis de heces y tratamiento antiparasitario bajo supervisión veterinaria.",
+   "condiciones": [
+    {
+     "sintoma": "diarrea",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "perdida_peso",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "parasitos_visibles_heces",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "enfermedad": 37,
+   "old": 38,
+   "cf": 0.8,
+   "diagnostico": "Posible diabetes mellitus felina",
+   "recomendacion": "Evaluación veterinaria con pruebas de glucosa y orina.",
+   "condiciones": [
+    {
+     "sintoma": "sed_aumentada",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "miccion_aumentada",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "perdida_peso",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "enfermedad": 38,
+   "old": 39,
+   "cf": 0.8,
+   "diagnostico": "Posible enfermedad renal crónica felina",
+   "recomendacion": "Evaluación veterinaria y pruebas de sangre y orina.",
+   "condiciones": [
+    {
+     "sintoma": "sed_aumentada",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "perdida_peso",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "inapetencia",
+     "valor": "si",
+     "grupo": 4
+    },
+    {
+     "sintoma": "vomitos",
+     "valor": "si",
+     "grupo": 5
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "enfermedad": 39,
+   "old": 40,
+   "cf": 0.8,
+   "diagnostico": "Posible hipertiroidismo felino",
+   "recomendacion": "Consulta veterinaria y medición de hormonas tiroideas.",
+   "condiciones": [
+    {
+     "sintoma": "perdida_peso",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "apetito_aumentado",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "inquietud",
+     "valor": "si",
+     "grupo": 4
+    },
+    {
+     "sintoma": "edad_adulta_o_avanzada",
+     "valor": "si",
+     "grupo": 5
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "enfermedad": 40,
+   "old": 41,
+   "cf": 0.85,
+   "diagnostico": "Posible otitis externa felina",
+   "recomendacion": "Examen del oído y tratamiento según la causa identificada.",
+   "condiciones": [
+    {
+     "sintoma": "rascado_orejas",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "sacude_cabeza",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "secrecion_oido",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "enfermedad": 41,
+   "old": 42,
+   "cf": 0.85,
+   "diagnostico": "Posible estomatitis felina",
+   "recomendacion": "Evaluación veterinaria odontológica y manejo del dolor prescrito.",
+   "condiciones": [
+    {
+     "sintoma": "babeo",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "dolor_al_comer",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "encias_muy_inflamadas",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "enfermedad": 42,
+   "old": 43,
+   "cf": 0.95,
+   "diagnostico": "Sospecha de obstrucción urinaria",
+   "recomendacion": "Atención veterinaria de emergencia inmediata. No presionar el abdomen ni intentar desobstruir en casa.",
+   "condiciones": [
+    {
+     "sintoma": "esfuerzo_orinar",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "orina_nula_o_gotas",
+     "valor": "si",
+     "grupo": 3
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "enfermedad": 43,
+   "old": 44,
+   "cf": 0.8,
+   "diagnostico": "Posible FLUTD",
+   "recomendacion": "Evaluación veterinaria pronta para determinar la causa y descartar obstrucción.",
+   "condiciones": [
+    {
+     "sintoma": "miccion_frecuente",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "dolor_al_orinar",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "todavia_expulsa_orina",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "enfermedad": 44,
+   "old": 45,
+   "cf": 0.75,
+   "diagnostico": "Posible cistitis felina",
+   "recomendacion": "Consulta veterinaria y análisis de orina. No asumir que todos los síntomas urinarios son causados por cistitis.",
+   "condiciones": [
+    {
+     "sintoma": "miccion_frecuente",
+     "valor": "si",
+     "grupo": 2
+    },
+    {
+     "sintoma": "dolor_al_orinar",
+     "valor": "si",
+     "grupo": 3
+    },
+    {
+     "sintoma": "orina_fuera_arenero",
+     "valor": "si",
+     "grupo": 4
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "enfermedad": 45,
+   "old": 46,
+   "cf": 0.99,
+   "diagnostico": "Emergencia veterinaria",
+   "recomendacion": "Traslado inmediato a urgencias veterinarias.",
+   "condiciones": [
+    {
+     "sintoma": "dificultad_respiratoria",
+     "valor": "si",
+     "grupo": 1
+    },
+    {
+     "sintoma": "colapso",
+     "valor": "si",
+     "grupo": 1
+    },
+    {
+     "sintoma": "convulsiones",
+     "valor": "si",
+     "grupo": 1
+    }
+   ]
+  }
+ ]
+}
